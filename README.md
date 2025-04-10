@@ -6,44 +6,44 @@ This project applies machine learning and case similarity techniques to predict 
 
 ## 📊 Project Highlights
 
-- *Dataset*: Patient demographics, medical history, and lifestyle features
-- *ML Models*: XGBoost, Random Forest, Logistic Regression, SVM
-- *Best Model*: Random Forest
-- *Accuracy*: 99%
-- *Similarity*: K-Means clustering and Euclidean distance
-- *UI*: Gradio app for real-time CHD risk prediction
+- **Dataset**: Patient demographics, medical history, and lifestyle features
+- **ML Models**: XGBoost, Random Forest, Logistic Regression, SVM
+- **Best Model**: Random Forest
+- **Accuracy**: 99%
+- **Similarity**: K-Means clustering and Euclidean distance
+- **UI**: Gradio app for real-time CHD risk prediction
 
 ---
 
 ## 🧪 Methodology
 
-1. *Data Preparation*  
+1. <i>**Data Preparation**</i>  
    - Handle missing values  
    - Encode categorical variables  
    - Normalize numerical features
 
-2. *Exploratory Data Analysis (EDA)*  
+2. <i>**Exploratory Data Analysis (EDA)**</i>  
    - Visualize feature distributions  
    - Analyze correlations
 
-3. *Feature Engineering & Splitting*  
+3. <i>**Feature Engineering & Splitting**</i>  
    - Create and select important features  
    - Train-test split (80-20)
 
-4. *Model Training & Evaluation*  
+4. <i>**Model Training & Evaluation**</i> 
    - Train XGBoost, Random Forest, Logistic Regression, SVM  
    - Evaluate using accuracy, precision, recall, F1-score
 
-5. *K-Means Clustering*  
+5. <i>**K-Means Clustering**</i>  
    - Determine optimal clusters using Elbow method  
    - Cluster patients by risk factor similarity
 
-6. *Case Similarity Analysis*  
+6. <i>**Case Similarity Analysis**</i>  
    - Assign user input to a cluster  
    - Find top-k similar patients using Euclidean distance  
    - Predict based on majority label of similar cases
 
-7. *Risk Prediction Interface*  
+7. <i>**Risk Prediction Interface**</i>  
    - Gradio-based web interface  
    - Input patient data and view prediction
 
